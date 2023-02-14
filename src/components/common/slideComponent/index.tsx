@@ -7,7 +7,10 @@ interface Props {
   course: CouseType[];
 }
 
+
+
 export const SlideComponent = ({ course }: Props) => {
+  console.log(course.length);
   let slideCount = 0;
 
   if (course.length > 4) {
