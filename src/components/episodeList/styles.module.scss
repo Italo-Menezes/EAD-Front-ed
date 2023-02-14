@@ -1,0 +1,66 @@
+@import "../../../styles/colors.module.scss";
+
+.episodeCard {
+  border: 1px solid $ligthGray;
+  margin-bottom: 20px;
+  width:550px;
+  height: 190px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px 14px;
+  transition: 0.5s;
+
+  &:hover {
+    border-color: $lightRed;
+    height: 210px;
+  }
+}
+
+.episodeOrderTime {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.episodeOrder {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.episodeTime{
+  color: $ligthGray;
+}
+.episodeTitleDecripiton{
+  text-align: center;
+  margin: 10px 0px;
+}
+.episodeTitle{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.episodeDescripiton{
+  color: $ligthGray;
+ 
+}
+
+@media (max-width:560px) {
+  .episodeCard {
+    width: 95%;
+  }
+ }
+
+ @media (max-width:400px) {
+  .episodeOrderTime{
+    gap:25px
+  }
+  .episodeTime{
+  font-size: 18px;
+  }
+  .episodeDescripiton{
+    word-break: break-all;
+    font-size: 14px;
+  }
+ }
+

@@ -1,0 +1,116 @@
+.episodesVideo {
+  /* FICAR NO CENTRO */
+  margin: 0 auto;
+  /* FICAR NO CENTRO */
+  width: 90%;
+  height: 650px;
+}
+
+.episodesTitle {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.episodeBtnDiv {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.arrowImg {
+  width: 20px;
+  transition: 0.4s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.episodeBtn {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+
+  transition: 0.4s;
+
+
+  
+  &:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+  }
+
+  &:focus {
+    outline: none;
+    background: transparent;
+
+    border: none;
+    box-shadow: none;
+
+  }
+
+  &:active {
+    transform: scale(0.9);
+    background: transparent;
+    border: none;
+    box-shadow: none;
+
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: transparent;
+  }
+
+
+
+
+
+
+
+}
+
+@media (max-width:1347px) {
+  .episodesVideo{
+    height: 570px;
+
+  }
+}
+@media (max-width:1189px) {
+  .episodesVideo{
+    height: 500px;
+    
+   
+  }
+}
+@media (max-width:991px) {
+  .episodesVideo{
+    height: 380px;
+    
+   
+  }
+}
+@media (max-width:751px) {
+  .episodesVideo{
+    height: 310px;
+    /* fazer video ficar fullstrem */
+
+  }
+}
+@media (max-width:515px) {
+  .episodesVideo{
+    height: 240px;
+    /* fazer video ficar fullstrem */
+
+  }
+}
+@media (max-width:375px) {
+  .episodesVideo{
+    height: 210px;
+    /* fazer video ficar fullstrem */
+    width: 99%;
+
+  }
+}

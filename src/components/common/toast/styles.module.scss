@@ -1,0 +1,19 @@
+#toast {
+
+  /* usar animação  */
+  animation: oi 0.5s ease-in-out;
+/* esqueda para direita animetion keyframes*/
+@keyframes oi {
+0% {
+transform: translateX(100%);
+}
+
+100% {
+transform: translateX(-2%);
+}
+
+
+
+
+
+}}
